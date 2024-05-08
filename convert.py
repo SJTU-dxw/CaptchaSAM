@@ -7,9 +7,9 @@ all_characters = string.digits + string.ascii_lowercase + string.ascii_uppercase
 category_mapping = {c: i for i, c in enumerate(all_characters)}
 
 # ISAT格式的实例分割标注文件
-ISAT_FOLDER = "./dataset/Sina/annotations"
+ISAT_FOLDER = "./dataset/Microsoft/annotations"
 # YOLO格式的实例分割标注文件
-YOLO_FOLDER = "./dataset/Sina/labels"
+YOLO_FOLDER = "./dataset/Microsoft/labels"
 
 # 创建YoloV8标注的文件夹
 if not os.path.exists(YOLO_FOLDER):
