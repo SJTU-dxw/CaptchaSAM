@@ -1,5 +1,7 @@
 # CaptchaSAM
 
+This reposity is official implementation of "CaptchaSAM: Segment Anything in Text-based Captchas" (TrustCom-2024).
+
 ### 1. Character-level semi-automatic annotation using SAM
 Annotation tool: 
 - https://github.com/yatengLG/ISAT_with_segment_anything
